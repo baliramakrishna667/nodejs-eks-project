@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejs-container
-        image: ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/nodejs-eks:latest
+        image: 324827177100.dkr.ecr.ap-south-1.amazonaws.com/nginx-images:latest
         ports:
         - containerPort: 3000
         resources:
