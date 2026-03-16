@@ -51,13 +51,13 @@ pipeline {
             }
         }
 
-        stage("Deploy to EKS") {
+       /* stage("Deploy to EKS") {
             steps {
                 sh '''
                 kubectl apply -f deployment.yaml
                 kubectl apply -f service.yaml
                 '''
             }
-        }
+        }*/
     }
 }
