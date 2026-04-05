@@ -1,7 +1,10 @@
 {
-"name":"nodejs-app",
-"version":"1.0.0",
-"dependencies":{
-"express":"^4.18.2"
-}
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
 }
